@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Validation</title>
+</head>
+<body>
+
+    <h1>Email Validation</h1>
+
+    <form onsubmit="verifyform(event)">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+
+        function verifyform(event) {
+            event.preventDefault();
+            document.write("<h1>✅ Verified Successfully!</h1>");
+       }
+        </script>
+   
+
+</body>
+</html>
